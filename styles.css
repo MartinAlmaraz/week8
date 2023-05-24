@@ -1,3 +1,74 @@
+
+#home-body {
+    background-color: #51e2f5;
+}
+
+.home {
+    text-align: center;
+    color: aquamarine;
+    
+}
+
+.chihuahua-swim {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swim-text {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+#about-body {
+    background-color: #51e2f5;
+}
+
+#about {
+    text-align: center;
+}
+
+.chihuhua-hat {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#para {
+    text-align: center;
+    font-size: larger;
+
+}
+
+#another-header {
+    text-align: center;
+    text-decoration: double;
+}
+
+
+.dog-pair {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#contact-us {
+    text-align: center;
+}
+
+#contact-body {
+    background-color: #51e2f5;
+    
+}
+
+#contact {
+    text-align: center;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -8,7 +79,7 @@ th,td {
     text-align: center;
     border-bottom: 1px solid blue
 }
-
-.pages-3 {
+#form {
     text-align: center;
 }
+
