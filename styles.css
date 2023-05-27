@@ -1,18 +1,38 @@
 
-#home-body {
+nav  {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    margin-bottom: 1em;
+    padding: 5px;
+   
+    
+}
+nav a{
+    color: white;
+}
+/* This is the CSS for the Home page*/
+body {
+    display: flex;
+    flex-direction: column;
     background-color: #51e2f5;
+   align-items: center;
+   margin: 0;
 }
 
 .home {
-    text-align: center;
+    
     color: aquamarine;
     
 }
 
 .chihuahua-swim {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height:450px;
+    width: 450px;
+
+    
+   
 }
 
 .swim-text {
@@ -22,20 +42,7 @@
 
 }
 
-
-#about-body {
-    background-color: #51e2f5;
-}
-
-#about {
-    text-align: center;
-}
-
-.chihuhua-hat {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-}
+/* This is the CSS for the About page*/
 
 #para {
     text-align: center;
@@ -48,27 +55,25 @@
     text-decoration: double;
 }
 
+.second-header {
+    text-align: center
+}
 
 .dog-pair {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    margin-top: 1em;
 }
 
-#contact-us {
+ul {
+    list-style-type: none;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-#contact-body {
-    background-color: #51e2f5;
-    
-}
-
-#contact {
-    text-align: center;
-}
-
+/* This is the CSS for the Contct Us page*/
 table {
     border-collapse: collapse;
     width: 100%;
